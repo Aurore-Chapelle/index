@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BGE serveur : Aurore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background-color: #442a73;
+    }
+    header {
+      display: flex;
+      background-color: #442a73;
+      justify-content: space-between;
+    }
+    .h1-container {
+      margin-left: 200px;
+    }
+    h1 {
+      font-family: "New Amsterdam", sans-serif;
+      letter-spacing: 2px;
+      color: #fb6b15;
+      text-align: center;
+      font-size: 100px;
+      margin: 0;
+    }
+    .h2-container {
+      align-content: center;
+      margin-right: 50px;
+    }
+    h2 {
+      font-family: "Oswald", sans-serif;
+      color: #f89a06;
+      letter-spacing: 0;
+      font-weight: 300;
+      font-size: 40px;
+      margin: 0;
+    }
+    main {
+      font-family: "Oswald", sans-serif;
+      font-size: 32px;
+    }
+
+    ul {
+      background-color: #442a73;
+      display: flex;
+      justify-content: space-evenly;
+      padding: 0;
+      margin: 50px 0;
+    }
+    li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #442a73;
+      background-color: #e8e3bb;
+      width: 300px;
+      height: 150px;
+    }
+    li a {
+      font-family: "New Amsterdam", sans-serif;
+      letter-spacing: 2px;
+      text-decoration: none;
+      font-size: 24px;
+    }
+    li a:hover {
+      color: #f89a06;
+    }
+
+    .img-container {
+      height: 540px; /* Définir la hauteur fixe */
+      overflow: hidden; /* Masquer tout ce qui dépasse */
+      display: flex;
+      align-items: center; /* Centrer verticalement l'image */
+      justify-content: center; /* Centrer horizontalement l'image */
+    }
+    img {
+      width: 100%;
+      height: auto; /* Garder le ratio de l'image */
+      max-height: 100%; /* Ne pas dépasser la hauteur du conteneur */
+      object-fit: cover; /* Recouvrir le conteneur sans déformation */
+    }
+  </style>
+  <body>
+    <header>
+      <div class="h1-container">
+        <h1>BGE Serveur</h1>
+      </div>
+      <div class="h2-container">
+        <h2>Aurore Chapelle</h2>
+      </div>
+    </header>
+    <main>
+      <div id="dossiers-container">
+        <ul>
+          <li>
+            <a href="http://aurore-ch.sc1nbnd7186.universe.wf/">CDUI</a>
+          </li>
+
+          <li>
+            <a href="http://aurore-ch.sc1nbnd7186.universe.wf/cdui/cgi-bin/"
+              >cgi-bin</a
+            >
+          </li>
+
+          <li>
+            <a href="http://aurore-ch.sc1nbnd7186.universe.wf/cdui/integration/"
+              >Intégration</a
+            >
+          </li>
+
+          <li>
+            <a
+              href="http://aurore-ch.sc1nbnd7186.universe.wf/cdui/projet_archi/"
+              >Lovell Déco</a
+            >
+          </li>
+
+          <li>
+            <a href="http://aurore-ch.sc1nbnd7186.universe.wf/cdui/wp-webfolio/"
+              >Webfolio</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="img-container">
+        <img src="img/4996349.jpg" alt="" />
+      </div>
+    </main>
+  </body>
+</html>
